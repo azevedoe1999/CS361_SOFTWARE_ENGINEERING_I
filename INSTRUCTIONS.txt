@@ -1,0 +1,22 @@
+1. Run Microservice A (Quote Gen) (localhost:8080)
+    a. Within the microservice, run terminal and enter: 
+        i.  cd '/Users/ericazevedo/Documents/OregonState/CS 361 Software Engineering 1/Main Project/data/Microservice A' 
+        ii. ./microserviceA
+
+2. Run Microservice B (Search Songs) (localhost:5000 via spotify api)
+    a. Run the python file spotify_api.py
+
+3. Run Microservice C (Rename Playlist) (localhost:2000)
+    a. run python file 
+
+4. Run Microservice D (Get details of songs/playlist) (localhost:5000 via spotify api)
+# For playlist, getting the total duration, total number of songs
+# For songs, getting name, artist, album, duration, release day, popularity, explicit
+# Will be using id to get this info 
+    a. same as #2 if didn't do #2
+
+
+### ADDITIONAL INFO ###
+SPOTIPY_CLIENT_ID='60b64e7e08fb495090c340979db96f64'
+SPOTIPY_CLIENT_SECRET='fd49ed00f76f4cd783f0e117c46e314f'
+SPOTIPY_REDIRECT_URI='http://127.0.0.1:5000/callback'
